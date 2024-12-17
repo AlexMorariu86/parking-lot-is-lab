@@ -20,7 +20,7 @@
                         <a class=" nav-link ${pageContext.request.requestURI.substring(pageContext.request.requestURI.lastIndexOf('/')) eq '/about.jsp' ? ' active' : ''}" aria-current="page" href="${pageContext.request.contextPath}/about.jsp">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class=" nav-link ${pageContext.request.requestURI.substring(pageContext.request.requestURI.lastIndexOf('/')) eq '/cars.jsp' ? ' active' : ''}" aria-current="page" href="${pageContext.request.contextPath}/cars.jsp">Cars</a>
+                        <a class=" nav-link ${pageContext.request.requestURI.substring(pageContext.request.requestURI.lastIndexOf('/')) eq '/Cars' ? ' active' : ''}" aria-current="page" href="${pageContext.request.contextPath}/Cars">Cars</a>
                     </li>
                     <li class="nav-item">
                     <li class="nav-item">
